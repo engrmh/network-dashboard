@@ -1,8 +1,63 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# RTL Network Management Dashboard
 
-Currently, two official plugins are available:
+Management network 
+- users
+- ussed
+- remaining
+- allocation
+- ...
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Installation
+
+Install this project with npm , yarn , bun
+
+```bash
+  cd my-project
+  npm i
+
+  yarn install
+
+  bun install
+  
+```
+    
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/engrmh/network-dashboard.git
+```
+
+Go to the project directory
+
+```bash
+  cd rtl-dashboard
+```
+
+Install dependencies with npm , yarn , bun
+
+```bash
+  npm i
+
+  yarn install
+
+  bun install
+  
+```
+
+Start the project
+
+```bash
+  npm run vite
+  npm run vite --host
+  
+  yarn run vite
+  yarn run vite --host
+
+  bun run vite
+  bun run vite --host
+```
+
