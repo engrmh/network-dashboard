@@ -12,11 +12,11 @@ export default function Login() {
     return (
     <>
       <Row className="px-0">
-        <Col className=''>
+        <Col className='d-flex flex-column justify-content-between'>
             <div className="p-5">
                 <h3 className="d-flex justify-content-start mb-5">حساب کاربری</h3>
                 <div className="my-5">
-                    <Form className='py-5'>
+                    <Form className='pt-5'>
                         <Form.Group className='d-flex align-items-center px-4'>
                             <FaUserAlt className='text-secondary fs-1'/>
                             <Form.Control className='border-0 mb-2' type='text' placeholder=' نام کاربری یا ایمیل'/>
@@ -49,6 +49,7 @@ export default function Login() {
                     }
                 </Button>
             </div>
+            <Link to='/register' className='mb-4 text-center text-decoration-none text-dark'>ثبت نام</Link>
         </Col>
         <Col className="mx-0 px-0 d-none d-lg-block">
             <Graphic/>
