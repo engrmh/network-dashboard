@@ -21,6 +21,9 @@
 .btnBackColor2 {
   background-image: linear-gradient(150deg, #3f2a9a, #8f4ec8, #a456d4);
 }
+.BackColor1 {
+  background-image: linear-gradient(0deg, #3f2a9a, #8f4ec8, #a456d4);
+}
 
 input:focus{
   outline: none !important;
